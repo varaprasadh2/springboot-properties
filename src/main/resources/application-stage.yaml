@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: "stage-app"
+app:
+    aws:
+        url: "stage-AWS"

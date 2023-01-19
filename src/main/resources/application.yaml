@@ -1,0 +1,11 @@
+spring:
+    profiles:
+        active:
+            - production
+            - stage
+            - develop
+    application:
+        name: "develop-app"
+app:
+    aws:
+        url: "develop-AWS"
